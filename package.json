@@ -9,6 +9,10 @@
     "build": "tsup src/index.ts --dts --format cjs,esm",
     "prepublishOnly": "pnpm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rithik-b/authjs-provider-tachi.git"
+  },
   "keywords": [
     "authjs",
     "authjs-provider",
